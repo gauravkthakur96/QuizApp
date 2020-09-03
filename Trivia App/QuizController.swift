@@ -48,6 +48,7 @@ class QuizController: UIViewController {
             qNumber = 0
             
             questionLabel.text = questions[qNumber].question
+            questionLabel.numberOfLines = 0
             
             for i in 0..<buttons.count {
                 buttons[i].setTitle(questions[qNumber].answers[i], for: .normal)

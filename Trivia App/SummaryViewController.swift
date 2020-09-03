@@ -37,7 +37,10 @@ class SummaryViewController: UIViewController {
     }
     
     func setupLabels() {
-        if storedata.indices.contains(3) {
+        if !storedata.indices.contains(2) {
+            storedata.append("")
+        }
+        if !storedata.indices.contains(3) {
             storedata.append("")
         }
         if !storedata.indices.contains(4) {
