@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Answers" representedClassName="Answers" syncable="YES" codeGenerationType="class">
+        <attribute name="answer1" optional="YES" attributeType="String"/>
+        <attribute name="answer2" optional="YES" attributeType="String"/>
+        <attribute name="answer3" optional="YES" attributeType="String"/>
+        <attribute name="answer4" optional="YES" attributeType="String"/>
+        <attribute name="answer5" optional="YES" attributeType="String"/>
+        <attribute name="answer6" optional="YES" attributeType="String"/>
+        <attribute name="answer7" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Answers" positionX="-54" positionY="-9" width="128" height="148"/>
+    </elements>
+</model>
